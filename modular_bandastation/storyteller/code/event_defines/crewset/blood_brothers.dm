@@ -48,7 +48,7 @@
 	roundstart_cost = 20
 
 /datum/round_event_control/antagonist/solo/brother/midround
-	name = "Blood Brothers (Admin spawn)"
+	name = "Blood Brothers"
 	earliest_start = 0 SECONDS
 	weight = 5
 
