@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/obsessed
 	antag_flag = ROLE_OBSESSED
-	tags = list(TAG_COMBAT)
+	tags = list(TAG_COMBAT, TAG_CREW_ANTAG)
 	antag_datum // потому-что антаг выдается через событие
 	typepath = /datum/round_event/obsessed
 	restricted_roles = list(
@@ -8,7 +8,7 @@
 		JOB_CYBORG,
 		ROLE_POSITRONIC_BRAIN,
 	)
-	weight = 4
+	weight = 8
 	max_occurrences = 3
 
 /datum/round_event_control/antagonist/solo/obsessed/midround

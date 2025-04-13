@@ -27,7 +27,7 @@
 	max_occurrences = 2
 	track = EVENT_TRACK_MUNDANE
 	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL)
-	req_departments_power = list(STS_MED = 60)
+	req_departments_power = list(STS_MED = 40)
 
 /datum/round_event_control/electrical_storm
 	track = EVENT_TRACK_MUNDANE
@@ -73,7 +73,7 @@
 	track = EVENT_TRACK_MUNDANE
 	tags = list(TAG_COMMUNAL)
 	event_group = /datum/event_group/error
-	req_departments_power = list(STS_ENG = 60)
+	req_departments_power = list(STS_ENG = 40)
 
 /datum/round_event_control/bitrunning_glitch
 	track = EVENT_TRACK_MUNDANE
@@ -127,7 +127,7 @@
 
 /datum/round_event_control/scrubber_overflow/catastrophic
 	weight = 0
-	req_departments_power = list(STS_ENG = 50, STS_MED = 50)
+	req_departments_power = list(STS_ENG = 45, STS_MED = 45)
 
 /datum/round_event_control/scrubber_overflow/every_vent
 	weight = 0

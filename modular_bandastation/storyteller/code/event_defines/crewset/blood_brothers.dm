@@ -2,7 +2,7 @@
 	antag_flag = ROLE_BROTHER
 	antag_datum = /datum/antagonist/brother
 	typepath = /datum/round_event/antagonist/solo/brother
-	tags = list(TAG_COMBAT, TAG_TEAM_ANTAG)
+	tags = list(TAG_COMBAT, TAG_TEAM_ANTAG,TAG_CREW_ANTAG)
 	protected_roles = list(
 		JOB_CAPTAIN,
 		JOB_HEAD_OF_PERSONNEL,
@@ -50,7 +50,7 @@
 /datum/round_event_control/antagonist/solo/brother/midround
 	name = "Blood Brothers (Admin spawn)"
 	earliest_start = 0 SECONDS
-	weight = 0
+	weight = 5
 
 /datum/round_event/antagonist/solo/brother/add_datum_to_mind(datum/mind/antag_mind)
 	var/datum/team/brother_team/team = new

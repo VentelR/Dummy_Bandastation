@@ -18,7 +18,7 @@
 		JOB_WARDEN,
 	)
 	required_enemies = 5
-	weight = 2
+	weight = 3
 	min_players = 35
 	max_occurrences = 1
 	prompted_picking = FALSE

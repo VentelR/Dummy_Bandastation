@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/malf
 	antag_datum = /datum/antagonist/malf_ai
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN) //not exactly alien but close enough
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_CREW_ANTAG) //больше не алиен
 	antag_flag = ROLE_MALF
 	enemy_roles = list(
 		JOB_CHEMIST,
@@ -15,7 +15,7 @@
 	)
 	exclusive_roles = list(JOB_AI)
 	required_enemies = 4
-	weight = 2
+	weight = 6
 	min_players = 35
 	roundstart_cost = 35
 	max_occurrences = 1

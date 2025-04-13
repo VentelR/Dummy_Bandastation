@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/bloodcult
 	name = "Blood Cult"
-	tags = list(TAG_SPOOKY, TAG_DESTRUCTIVE, TAG_COMBAT, TAG_TEAM_ANTAG, TAG_MAGICAL)
+	tags = list(TAG_SPOOKY, TAG_DESTRUCTIVE, TAG_COMBAT, TAG_TEAM_ANTAG, TAG_MAGICAL, TAG_CREW_ANTAG)
 	antag_flag = ROLE_CULTIST
 	antag_datum = /datum/antagonist/cult
 	typepath = /datum/round_event/antagonist/solo/bloodcult
@@ -33,7 +33,7 @@
 	min_players = 30
 	roundstart = TRUE
 	earliest_start = 0 SECONDS
-	weight = 1
+	weight = 4
 	max_occurrences = 3
 
 /datum/round_event_control/antagonist/solo/bloodcult/get_pre_cost()

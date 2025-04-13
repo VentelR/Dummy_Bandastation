@@ -1,13 +1,13 @@
 /datum/round_event_control/earthquake
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_DESTRUCTIVE)
-	req_departments_power = list(STS_ENG = 70)
+	req_departments_power = list(STS_ENG = 60)
 
 /datum/round_event_control/meteor_wave
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_COMMUNAL, TAG_SPACE, TAG_DESTRUCTIVE)
 	event_group = /datum/event_group/meteors
-	req_departments_power = list(STS_ENG = 90)
+	req_departments_power = list(STS_ENG = 60)
 
 /datum/round_event_control/revenant
 	min_players = 20

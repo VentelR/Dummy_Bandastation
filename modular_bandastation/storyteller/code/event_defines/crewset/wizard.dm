@@ -26,7 +26,7 @@
 	roundstart = TRUE
 	roundstart_cost = 30
 	earliest_start = 0 SECONDS
-	weight = 1
+	weight = 2
 	min_players = 35
 	max_occurrences = 1
 	event_icon_state = "wizard"
